@@ -1,0 +1,126 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+#top {
+	background-color: #fff;
+	height: 50px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(0,0,0,.05);
+}
+
+/*.navbar-nav {
+	position: absolute;
+	right: 50px;
+}*/
+
+.card-deck, .row {
+	margin-top: 50px;
+}
+
+#num1 {
+	background-color: #007bff;
+}
+
+#num2 {
+	background-color: #28a745;
+}
+
+#num3 {
+	background-color: #dc3545;
+}
+
+#bd-blue {
+	border-color: #007bff;
+}
+
+#bd-green {
+	border-color: #28a745;
+}
+
+#bd-red {
+	border-color: #dc3545;
+}
+
+.card-text, .card-title {
+	color: white;
+}
+
+#living {
+	background-color: #563d7c;
+}
+
+#academic {
+	background-color: #17a2b8;
+}
+
+.academic-list , .living-list , .school-list {
+	list-style: none;
+	text-align: center;
+	padding-right: 40px;
+}
+
+#living-title, .living-list {
+	color: #007bff;
+}
+
+#school-title, .school-list {
+	color: #28a745;
+}
+
+#academic-title, .academic-list {
+	color: #dc3545;
+}
+
+#living-title, #school-title, #academic-title {
+	text-align: center;
+	padding-bottom: 30px;
+	font-weight: bold;
+}
+
+#qrcode-title, #contact-title {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+#qrcode-title {
+	padding-bottom: 30px;
+}
+
+#qrcode-text, #contact-text {
+	color: red;
+}
+
+
+#qrcode, #contact {
+	height: 300px;
+	background-color: #17a2b8;
+	border-style: none;
+	
+}
+
+.qrcode-img {
+	width: 150px;
+	height: 150px;
+	display: block;
+	margin: 0 auto;
+}
+
+#contact-text, #qrcode-text {
+	padding-top: 30px;
+}
+
+#contact-text, #qrcode-text {
+	text-align: center;
+	color: #fff;
+}
+.bottom {
+	background-color: #17a2b8;
+	position: relative;
+	height: 300px;
+	width: 100%;
+	bottom: 0px;
+	margin-top: 50px;
+}
+
+
+
